@@ -13,7 +13,7 @@
   - 最早的词向量是很冗长的，它使用是词向量维度大小为整个词汇表的大小，对于每个具体的词汇表中的词，将对应的位置置为1。
   - 比如下面5个词组成词汇表，词"Queen"的序号为2， 那么它的词向量就是(0,1,0,0,0)同样的道理，词"Woman"的词向量就是(0,0,0,1,0)。
 
-  ![](/img/word2vec1.png)
+  ![](img/word2vec1.png)
 
 - one hot vector的问题
 
@@ -22,11 +22,11 @@
   - Dristributed representation可以解决One hot representation的问题，它的思路是通过训练，将每个词都映射到一个较短的词向量上来。所有的这些词向量就构成了向量空间，进而可以用普通的统计学的方法来研究词与词之间的关系。这个较短的词向量维度一般需要我们在训练时指定。
   - 比如下图我们将词汇表里的词用"Royalty(王位)","Masculinity(男性气质)", "Femininity(女性气质)"和"Age"4个维度来表示，King这个词对应的词向量可能是(0.99,0.99,0.05,0.7)。当然在实际情况中，我们并不一定能对词向量的每个维度做一个很好的解释。
 
-  ![](/img/word2vec2.png)
+  ![](img/word2vec2.png)
 
 - 有了用Dristributed representation表示的较短的词向量，就可以较容易的分析词之间的关系，比如将词的维度降维到2维，用下图的词向量表示我们的词时，发现：$\vec{King} - \vec{Man} + \vec{Woman} = \vec{Queen}​$ 
 
-  ![](/img/word2vec3.png)
+  ![](img/word2vec3.png)
 
 - 什么是word vector（词向量）
 
@@ -61,7 +61,7 @@
 
   - **Continuous Bag-of-Words(CBOW)** 连续词袋向量
 
-    - ![](/img/CBOW.png)
+    - ![](img/CBOW.png)
 
     - 功能：通过上下文预测当前词出现的概率
 
