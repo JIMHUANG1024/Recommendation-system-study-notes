@@ -79,7 +79,7 @@
 
   - **Continuous Skip-gram**
 
-    - ![](/img/skip-gram.png)
+    - ![](img/skip-gram.png)
     - 功能：根据当前词预测上下文
     - 原理分析
       - 和CBOW相反，则我们要求的概率就变为P(Context(w)|w)
