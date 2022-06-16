@@ -35,13 +35,13 @@
 
   - 通过浏览器查看 主机ip:50070端口 
 
-  ![1551174774098](/img/hadoop-state.png)
+  ![1551174774098](img/hadoop-state.png)
 
   - Overview界面查看整体情况
 
-  ![1551174978741](/img/hadoop-state1.png)
+  ![1551174978741](img/hadoop-state1.png)
 
   - Datanodes界面查看datanode的情况
 
-    ![1551175081051](/img/hadoop-state2.png)
+    ![1551175081051](img/hadoop-state2.png)
 
