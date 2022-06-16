@@ -1,10 +1,11 @@
 # Recommendation-system-study-notes
 Recommendation system study notes
 
-### 01 推荐系统
-### 02 大数据框架
-### 03 SQL
+[01 推荐系统](#1)
+[02 大数据框架](#2)
+[03 SQL](#3)
 
+<span id="1"> </span>
 # 推荐系统
 
 #### 基于相似度的协同过滤推荐
@@ -79,7 +80,7 @@ Recommendation system study notes
     + 把每一部电影对应的关键词权重求和之后 排序 权重比较高的排在前面 推荐给用户
 
 
-
+<span id="2"> </span>
 # 大数据框架
 
 ### Hadoop概念
@@ -496,6 +497,7 @@ Recommendation system study notes
   + 行级别事务 不是事务型数据库
 + CAP定理 CP系统
 
+<span id="3"> </span>
 # SQL学习笔记
 
 ### SQL专用名词
