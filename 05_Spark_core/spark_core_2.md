@@ -61,7 +61,7 @@
   - 在spark shell中 已经为我们创建好了 SparkContext 通过sc直接使用
   - 可以在spark UI中看到当前的Spark作业 在浏览器访问当前centos的4040端口
 
-  ![](/img/sparkui.png)
+  ![](img/sparkui.png)
   - Parallelized Collections方式创建RDD
 
     - 调用`SparkContext`的 `parallelize` 方法并且传入已有的可迭代对象或者集合
@@ -94,7 +94,7 @@
 
     - 在spark ui中观察执行情况
 
-    ![](/img/createrdd2.png)
+    ![](img/createrdd2.png)
 
     -  Spark将为群集的每个分区（partition）运行一个任务（task）。 通常，可以根据CPU核心数量指定分区数量（每个CPU有2-4个分区）如未指定分区数量，Spark会自动设置分区数。
 
