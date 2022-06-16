@@ -82,7 +82,7 @@
 
     - 在spark ui中观察执行情况
 
-    ![createrdd](/img/createrdd.png)
+    ![createrdd](img/createrdd.png)
 
     - 在通过`parallelize`方法创建RDD 的时候可以指定分区数量
 
