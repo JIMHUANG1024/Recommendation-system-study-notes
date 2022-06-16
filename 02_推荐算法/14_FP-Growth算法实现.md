@@ -13,11 +13,11 @@ FP-Growth算法实现步骤
 
 FP-Growth算法将数据存储在一种被称为FP树的紧凑数据结构中。
 
-![](/img/fp-growth2.png)
+![](img/fp-growth2.png)
 
 下图就是利用上面的数据构建的一棵FP树（最小支持度为3）：
 
-![](/img/fp-growth1.png)
+![](img/fp-growth1.png)
 
 - FP树中最小支持度指项集总共出现的次数
 - 一个元素项可以在一棵FP树中出现多次
