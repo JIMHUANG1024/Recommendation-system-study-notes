@@ -37,7 +37,7 @@
 
   - 3，下载spark源码
 
-    ![s1](/img/s1.png)
+    ![s1](img/s1.png)
 
   - 4，增加cdh的repository
 
@@ -92,7 +92,7 @@
 
 - spark集群架构(Standalone模式)
 
-  ![](/img/spark1.png)
+  ![](img/spark1.png)
 
   - Application
 
@@ -121,6 +121,6 @@
 
   - TaskScheduler：实现Task分配到Executor上执行。
 
-    ![](/img/spark2.png)
+    ![](img/spark2.png)
 
-![](/img/spark3.png)
+![](img/spark3.png)
