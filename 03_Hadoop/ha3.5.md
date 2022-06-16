@@ -18,15 +18,15 @@ reduce：将map输出的数据进行hash计算，对每个map数据进行统计�
 
 OutputFormat：格式化输出数据
 
-![](/img/mp3.png)
+![](img/mp3.png)
 
-![](/img/mp4.png)
+![](img/mp4.png)
 
-![](/img/mp5.png)
+![](img/mp5.png)
 
-![](/img/mp6.png)
+![](img/mp6.png)
 
-![](/img/mp1.png)
+![](img/mp1.png)
 
 map：将数据进行处理
 
@@ -46,11 +46,11 @@ reduce：不同的reduce任务，会从map中对应的任务中copy数据
   - JobTracker:负责接收客户作业提交，负责任务到作业节点上运行，检查作业的状态
   - TaskTracker：由JobTracker指派任务，定期向JobTracker汇报状态，在每一个工作节点上永远只会有一个TaskTracker
 
-![](/img/image-MapReduce4.png)
+![](img/image-MapReduce4.png)
 
 - MapReduce2.X架构
 
   - ResourceManager：负责资源的管理，负责提交任务到NodeManager所在的节点运行，检查节点的状态
   - NodeManager：由ResourceManager指派任务，定期向ResourceManager汇报状态
 
-  ![](/img/image-MapReduce5.png)
+  ![](img/image-MapReduce5.png)
