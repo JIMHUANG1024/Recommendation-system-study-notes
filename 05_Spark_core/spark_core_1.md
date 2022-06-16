@@ -54,7 +54,7 @@
 
     - ./pyspark
 
-  - ![](/img/pyspark.png)
+  - ![](img/pyspark.png)
 
   - ``` python
     sc = spark.sparkContext
