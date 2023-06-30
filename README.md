@@ -1,4 +1,3 @@
-https://github.com/JIMHUANG1024/Recommendation-system-study-notes/assets/77168062/2d0abf13-924a-4b6b-a610-15330de25b2a
 # Recommendation-system-study-notes
 Recommendation system study notes
 
